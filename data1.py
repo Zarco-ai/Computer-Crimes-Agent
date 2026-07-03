@@ -167,5 +167,5 @@ costlogger.info(costs)
 
 '''Process Data'''
 #Ingest Vectors
-index.upsert(vectors=vectors)
+index.upsert(vectors=vectors) 
 print(index.describe_index_stats())
