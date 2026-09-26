@@ -1,0 +1,308 @@
+id,question,status,acknowledged_scope_limit,failed_to_answer,expected_refusal,refusal_ok,citation_precision,section_recall,cite_hit,tool_choice_hit,leaked_punishment,citations,tools_used,steps,tokens,cost_usd,latency_ms,answer,notes
+g01,"Under Chapter 33, what is the legal definition of 'Access'?",grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.01(1),look_up_definition,2,3152,0.0005195999999999999,2360,"The legal definition of ""Access"" under Chapter 33 is as follows: 
+
+""Access"" means to approach, instruct, communicate with, store data in, retrieve or intercept data from, alter data or computer software in, or otherwise make use of any resource of a computer, computer network, computer program, or computer system. § 33.01(1)
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g02,What is a computer virus under Texas law?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.01(10),look_up_definition,2,3159,0.00051885,1853,"Under Texas law, a ""computer virus"" is defined as an unwanted computer program or set of instructions inserted into a computer's memory, operating system, or program that is specifically constructed to replicate itself or to affect other programs or files by attaching a copy of itself to them. This definition is found in § 33.01(10). 
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g03,Who counts as an 'owner' for purposes of these offences?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.01(15),look_up_definition,2,3187,0.00053295,1909,"An ""owner"" for purposes of the offences in Chapter 33 is defined as a person who:
+
+- Has title to the property, possession of the property (whether lawful or not), or a greater right to possession than the actor; 
+- Has the right to restrict access to the property; or 
+- Is the licensee of data or computer software. 
+
+This definition applies throughout Chapter 33, as stated in § 33.01(15).
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g04,When is consent not 'effective consent' under Chapter 33?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.01(12)(A) 33.01(12)(B) 33.01(12)(C) 33.01(12)(D) 33.01(12)(E),look_up_definition,2,3328,0.0005874,2711,"Consent is not considered ""effective consent"" under Chapter 33 in the following situations:
+
+- If it is induced by deception or coercion (§ 33.01(12)(A)).
+- If it is given by a person whom the actor knows is not legally authorized to act for the owner (§ 33.01(12)(B)).
+- If it is given by a person who, due to youth, mental disease or defect, or intoxication, is known by the actor to be unable to make reasonable property dispositions (§ 33.01(12)(C)).
+- If it is given solely to detect the commission of an offense (§ 33.01(12)(D)).
+- If it is used for a purpose other than that for which the consent was given (§ 33.01(12)(E)).
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g05,What does 'harm' include in Chapter 33?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.01(14),look_up_definition,2,3155,0.0005223,1944,"In Chapter 33, ""harm"" includes:
+
+- Partial or total alteration, damage, or erasure of stored data
+- Interruption of computer services
+- Introduction of a computer virus
+- Any other loss, disadvantage, or injury that might reasonably be suffered as a result of the actor's conduct 
+
+This definition applies throughout Chapter 33. 
+
+§ 33.01(14)
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g06,How does Chapter 33 define 'aggregate amount'?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.01(2),look_up_definition,2,3365,0.0006163499999999999,2995,"Chapter 33 defines ""aggregate amount"" as the total of any direct or indirect loss incurred by a victim, which includes the value of money, property, or services stolen, appropriated, or rendered unrecoverable by the offense, as well as any expenditures required by the victim to determine or restore data or systems affected by the offense. 
+
+- **Definition**: ""Aggregate amount"" means the amount of:
+  - (A) any direct or indirect loss incurred by a victim, including the value of money, property, or service stolen, appropriated, or rendered unrecoverable by the offense; or
+  - (B) any expenditure required by the victim to:
+    - (i) determine whether data or a computer, computer network, computer program, or computer system was altered, acquired, appropriated, damaged, deleted, or disrupted by the offense; or
+    - (ii) attempt to restore, recover, or replace any data altered, acquired, appropriated, damaged, deleted, or disrupted. 
+  (§ 33.01(2))
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g07,What is a 'critical infrastructure facility'?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.01(10-a),look_up_definition,2,3374,0.00060015,2737,"A ""critical infrastructure facility"" is defined as:
+
+- A chemical manufacturing facility;
+- A refinery;
+- An electrical power generating facility, substation, switching station, electrical control center, or electrical transmission or distribution facility;
+- A water intake structure, water treatment facility, wastewater treatment plant, or pump station;
+- A natural gas transmission compressor station;
+- A liquid natural gas terminal or storage facility;
+- A telecommunications central switching office;
+- A port, railroad switching yard, trucking terminal, or other freight transportation facility;
+- A gas processing plant, including a plant used in the processing, treatment, or fractionation of natural gas;
+- A transmission facility used by a federally licensed radio or television station; or
+- A cable television or video service provider headend. 
+
+This definition is found in § 33.01(10-a) and applies throughout Chapter 33. 
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g08,Is 'ransomware' defined anywhere in Chapter 33?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.023(a),look_up_definition,2,3253,0.0005568,2007,"Yes, 'ransomware' is defined in Chapter 33, specifically in § 33.023(a). 
+
+- ""Ransomware"" means a computer contaminant or lock that restricts access by an unauthorized person to a computer, computer system, or computer network or any data in a computer, computer system, or computer network under circumstances in which a person demands money, property, or a service to remove the computer contaminant or lock, restore access to the computer, computer system, computer network, or data, or otherwise remediate the impact of the computer contaminant or lock. 
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g09,What are the elements of breach of computer security?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.02 33.02(a) 33.02(b-1),list_sections get_section,3,6414,0.001044,3281,"The elements of breach of computer security under Texas law are outlined in § 33.02 of the Texas Penal Code. 
+
+- **Access without Consent**: A person commits an offense if they knowingly access a computer, computer network, or computer system without the effective consent of the owner (§ 33.02(a)).
+- **Intent to Defraud or Harm**: A person commits an offense if, with the intent to defraud or harm another, or to alter, damage, or delete property, they knowingly access a computer, computer network, or computer system without the effective consent of the owner, or in violation of a clear prohibition or contractual agreement (§ 33.02(b-1)).
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g10,What is the penalty for intentionally accessing a computer without authorization?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.02(a) 33.02(b) 33.02(b-2)(1) 33.02(b-2)(3) 33.02(b-2)(7),list_sections penalty_lookup,2,4383,0.0008149499999999999,3741,"The penalty for intentionally accessing a computer without authorization can vary based on specific circumstances.
+
+- **Class B Misdemeanor**: If the offense is under § 33.02(a) without aggravating factors, it is classified as a Class B misdemeanor (§ 33.02(b)).
+- **State Jail Felony**: If the defendant has two or more prior convictions under this chapter, or if the computer system accessed is owned by the government or a critical infrastructure facility, it escalates to a state jail felony (§ 33.02(b)).
+- **Class C Misdemeanor**: If the aggregate amount involved is less than $100, it is a Class C misdemeanor (§ 33.02(b-2)(1)).
+- **Class A Misdemeanor**: If the aggregate amount involved is $750 or more but less than $2,500, it is a Class A misdemeanor (§ 33.02(b-2)(3)).
+- **Felony of the First Degree**: If the aggregate amount involved is $300,000 or more, or if the actor accesses more than one computer system to obtain identifying information, it is a felony of the first degree (§ 33.02(b-2)(7)).
+
+What would decide it:
+- The aggregate amount involved in the unauthorized access.
+- The ownership of the computer system accessed (government or critical infrastructure).
+- The number of prior convictions under this chapter.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g11,"If someone breaches computer security with intent to defraud and the loss is $40,000, what grade of offence is that?",grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.02(b-1) 33.02(b-2)(5),search_statute penalty_lookup,2,4218,0.00074606,4016,"The offence of breaching computer security with intent to defraud and causing a loss of $40,000 would be graded as a felony of the third degree.
+
+- A person commits an offence if, with the intent to defraud, they knowingly access a computer without the effective consent of the owner (§ 33.02(b-1)).
+- The grading for this offence is a felony of the third degree if the aggregate amount involved is $30,000 or more but less than $150,000 (§ 33.02(b-2)(5)).
+
+What would decide it:
+- The specific intent to defraud and the amount of loss, which is confirmed to be $40,000.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g12,What is the highest grade of offence available under section 33.02 and what triggers it?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.02 33.02(b-2)(7),penalty_lookup get_section,2,4631,0.0007801499999999999,3097,"The highest grade of offence available under section 33.02 is a felony of the first degree, which is triggered if the aggregate amount involved is $300,000 or more, or if the actor obtains the identifying information of another by accessing more than one computer, computer network, or computer system.
+
+- **Felony of the First Degree**: This grade applies if:
+  - The aggregate amount involved is $300,000 or more; or
+  - The actor obtains the identifying information of another by accessing more than one computer, computer network, or computer system. (§ 33.02(b-2)(7))
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g13,"Does Chapter 33 cover altering or deleting data, or only unauthorized access?",grounded,False,False,False,True,1.0,1.0,1.0,0.0,False,33.02 33.023,list_sections,2,3521,0.00057045,1764,"Chapter 33 covers both unauthorized access and altering or deleting data through specific provisions.
+
+- **Unauthorized Access**: This is addressed under § 33.02, which deals with breach of computer security.
+- **Altering or Deleting Data**: This is specifically covered under § 33.023, which pertains to electronic data tampering.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g14,Is introducing ransomware a separate offence?,grounded,False,False,False,True,1.0,1.0,1.0,0.0,False,33.023 33.02,list_sections,2,3549,0.00059445,2359,"Introducing ransomware is not listed as a separate offence in Chapter 33 of the Texas Penal Code. However, it may fall under related offences such as ""Electronic Data Tampering"" or ""Breach of Computer Security.""
+
+- **Electronic Data Tampering**: This offence involves altering, damaging, or deleting data without authorization, which could encompass ransomware activities. See § 33.023.
+- **Breach of Computer Security**: This offence includes unauthorized access to a computer system, which could also relate to the introduction of ransomware. See § 33.02.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g15,What offence covers cutting off someone's access to a computer network?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.022(a),search_statute,2,3729,0.0006209599999999998,2744,"The offence that covers cutting off someone's access to a computer network is found in the Texas Penal Code under ""Electronic Access Interference.""
+
+- A person commits an offence if they intentionally interrupt or suspend access to a computer system or computer network without the effective consent of the owner, as stated in § 33.022(a).
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g16,What grade of offence is electronic access interference?,grounded,False,False,False,True,1.0,1.0,1.0,0.0,False,33.022(a) 33.022(b),list_sections search_statute,2,4150,0.0007011299999999999,2829,"The grade of offence for electronic access interference is a third degree felony. 
+
+- A person commits electronic access interference if they intentionally interrupt or suspend access to a computer system or network without the effective consent of the owner, as stated in § 33.022(a).
+- The grading for this offence is specified in § 33.022(b), which classifies it as a third degree felony.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g17,Is there a defence for law enforcement accessing a computer during a lawful search?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.02 33.022 33.03,list_sections get_section,3,5646,0.0009144000000000001,2770,"There is a specific defense related to law enforcement accessing a computer during a lawful search under certain conditions.
+
+- An affirmative defense exists for prosecution under § 33.02 (Breach of Computer Security) or § 33.022 (Electronic Access Interference) if the actor was an officer, employee, or agent of a communication common carrier or electric utility and committed the act in the course of employment while engaged in an activity necessary for service or protection of rights or property of the carrier or utility, as stated in § 33.03.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g18,What affirmative defence does section 33.03 create and who can use it?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.03,get_section,2,3172,0.0005208,1866,"Section 33.03 creates an affirmative defense for officers, employees, or agents of a communication common carrier or electric utility. 
+
+- This defense applies if the individual committed the act in the course of their employment while engaged in activities necessary for providing service or protecting the rights or property of the carrier or utility. 
+
+§ 33.03.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g19,What does unlawful decryption require?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.024(a) 33.01(11-a) 33.024(c) 33.024(b) 33.024(b-2),list_sections search_statute,2,4496,0.0008128799999999999,3411,"Unlawful decryption requires intentionally decrypting encrypted private information through deception and without a legitimate business purpose.
+
+- A person commits an offense if they intentionally decrypt encrypted private information through deception and without a legitimate business purpose. (§ 33.024(a))
+- ""Decryption"" means the decoding of encrypted communications or information, whether by use of a decryption key, breaking an encryption formula, or interfering with an encryption service. (§ 33.01(11-a))
+- There is a defense if the conduct was pursuant to an agreement with the owner for assessing or maintaining security or providing related services. (§ 33.024(c))
+- The offense is generally classified as a Class C misdemeanor, but can escalate based on the nature of the information decrypted and the harm caused. (§ 33.024(b), § 33.024(b-2))
+
+What would decide it:
+- Whether the decryption was done through deception.
+- Whether there was a legitimate business purpose.
+- The value of the aggregate amount involved and any harm to clients or patients.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g20,What is the baseline grade for unlawful decryption before any enhancement?,grounded,False,False,False,True,1.0,1.0,1.0,0.0,False,33.024(a) 33.024(b),list_sections search_statute,2,4380,0.0007378799999999998,2629,"The baseline grade for unlawful decryption is a Class C misdemeanor.
+
+- A person commits an offense if they intentionally decrypt encrypted private information through deception and without a legitimate business purpose, as stated in § 33.024(a).
+- The offense is classified as a Class C misdemeanor, subject to the conditions in subsections (b-1) and (b-2), according to § 33.024(b).
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g21,What offence applies to using someone else's name to create a fake social media profile?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.07(a),search_statute,2,3905,0.0006780399999999999,2661,"The offence that applies to using someone else's name to create a fake social media profile is Online Impersonation.
+
+- A person commits an offence if they, without obtaining the other person's consent and with the intent to harm, defraud, intimidate, or threaten any person, use the name or persona of another person to create a web page on a commercial social networking site or post messages on such a site, as stated in § 33.07(a).
+
+What would decide it:
+- Whether the impersonation was done without the consent of the other person.
+- Whether the intent was to harm, defraud, intimidate, or threaten.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g22,What grade is online impersonation under subsection (a)?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.07(c),list_sections penalty_lookup,2,3764,0.0006104999999999999,1743,"Online impersonation under subsection (a) is a felony of the third degree. 
+
+- § 33.07(c) states that an offense under Subsection (a) is a felony of the third degree.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g23,Does Chapter 33 address tampering with voting machines?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.05 33.05(b) 33.05(d),list_sections get_section,3,5895,0.0009657,3194,"Yes, Chapter 33 addresses tampering with voting machines under § 33.05, which specifically deals with tampering with direct recording electronic voting machines.
+
+- A person commits an offense if they knowingly access a part of a voting system that uses direct recording electronic voting machines and, by that access, they:
+  - Prevent a person from lawfully casting a vote; 
+  - Change a lawfully cast vote; 
+  - Prevent a lawfully cast vote from being counted; or 
+  - Cause a vote that was not lawfully cast to be counted (§ 33.05(b)).
+- This offense is classified as a felony of the first degree (§ 33.05(d)).
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g24,Can the attorney general get involved in prosecuting computer crimes?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.04,search_statute,2,3632,0.00060551,2105,"Yes, the attorney general can assist in prosecuting computer crimes if requested by a prosecuting attorney.
+
+- The attorney general may assist the prosecuting attorney in the investigation or prosecution of an offense under this chapter or any other offense involving the use of a computer, as stated in § 33.04.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g25,"A fired employee at a Houston firm logs into a shared server using an old admin account and deletes critical project logs out of spite. Did they violate Texas law, and what are they facing?",grounded,False,False,False,True,1.0,1.0,0.5,1.0,False,33.02(b-1) 33.023(b) 33.02(b) 33.023(d),search_statute list_sections penalty_lookup penalty_lookup,3,7960,0.00139742,5007,"The fired employee likely violated Texas law by accessing a shared server without authorization and deleting critical project logs, which could fall under multiple offenses.
+
+- **Breach of Computer Security**: The employee knowingly accessed a computer system without the effective consent of the owner and deleted property, which constitutes an offense under § 33.02(b-1).
+- **Electronic Data Tampering**: The act of deleting data can also be classified as electronic data tampering, as it involves intentionally altering or deleting data without a legitimate business purpose, as per § 33.023(b).
+
+### Grading of Offenses:
+- **Breach of Computer Security**: This offense is generally a **Class B misdemeanor** under § 33.02(b) unless aggravated by prior convictions or if the system is owned by the government or critical infrastructure, which could elevate it to a **state jail felony**.
+- **Electronic Data Tampering**: This offense is a **Class C misdemeanor** under § 33.023(d) if the aggregate amount involved is less than $100 or cannot be determined, but it could escalate to a **state jail felony** if the value of the aggregate amount involved is less than $2,500.
+
+### What would decide it:
+- Whether the employee had prior convictions under Chapter 33.
+- The ownership of the computer system (government or critical infrastructure).
+- The value of the data deleted or tampered with.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g26,An IT contractor is authorized to access a client's server for maintenance but copies the customer database to sell it. Which Chapter 33 provisions bear on that?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.02(b-1) 33.023(b),search_statute search_statute,2,4572,0.00085609,4544,"The IT contractor's actions could potentially violate two provisions of Chapter 33: Breach of Computer Security and Electronic Data Tampering.
+
+- **Breach of Computer Security**: A person commits an offense if, with the intent to defraud or harm another, they knowingly access a computer system without the effective consent of the owner, or access it in violation of a contractual agreement. This applies here as the contractor accessed the server with the intent to sell the customer database, which constitutes a breach of trust and consent. (§ 33.02(b-1))
+
+- **Electronic Data Tampering**: A person commits an offense if they intentionally alter data as it transmits between computers or introduce ransomware onto a system through deception. While the contractor's act of copying data may not fit this exactly, if the act involved altering or manipulating the data in any way, it could fall under this provision. (§ 33.023(b))
+
+### What would decide it:
+- Whether the contractor had effective consent to copy the database.
+- The intent behind accessing and copying the data (to defraud or harm).
+- Any specific contractual agreements regarding data access and usage.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g27,Does Chapter 33 say anything about a hospital's patient records specifically?,grounded,False,False,False,True,1.0,1.0,1.0,1.0,False,33.01(15-a) 33.023(d-2) 33.024(b-2),search_statute,2,4237,0.0007641099999999998,3465,"Chapter 33 of the Texas Penal Code addresses ""privileged information,"" which includes protected health information, and outlines offenses related to the unauthorized access or tampering of such information.
+
+- **Definition of Privileged Information**: ""Privileged information"" includes protected health information as defined by Section 182.002 of the Health and Safety Code, which would encompass hospital patient records. (§ 33.01(15-a))
+- **Electronic Data Tampering**: If a person knowingly restricts access to privileged information, it can lead to charges under the electronic data tampering statute, with varying degrees of felony based on the value involved and any harm to clients or patients. (§ 33.023(d-2))
+- **Unlawful Decryption**: Knowingly decrypting privileged information also constitutes an offense, with similar grading conditions based on the value and harm caused. (§ 33.024(b-2))
+
+What would decide the grading of these offenses includes:
+- The aggregate value of the information involved.
+- Whether any client or patient suffered harm or injury attributable to the offense.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+g28,Can someone be prosecuted under both Chapter 33 and another chapter for the same conduct?,refused,True,True,False,False,,0.0,0.0,0.0,False,,,1,1589,0.00028829999999999996,1261,"Chapter 33 of the Texas Penal Code addresses computer crimes and creates specific criminal offenses related to computer systems and data. However, it does not provide for civil remedies or address offenses outside its scope. 
+
+Therefore, while a person can be prosecuted under Chapter 33 for computer-related offenses, they may also face prosecution under other chapters of the Penal Code for different offenses arising from the same conduct, as long as those offenses are not duplicative of the conduct defined in Chapter 33.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+r01,How many years in prison is a state jail felony in Texas?,refused,True,True,True,True,,,,,False,,,1,1560,0.0002727,1223,"I cannot provide information about punishment ranges, including years in prison for a state jail felony, as that information is found in Chapter 12 of the Texas Penal Code, which I cannot access. 
+
+However, I can tell you that a state jail felony is defined in Chapter 33, and you can refer to Chapter 12 for the specific punishment ranges.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+r02,What is the maximum fine for a Class A misdemeanor?,refused,True,True,True,True,,,,,False,,,1,1551,0.0002682,1128,"I cannot provide information about fines or punishment ranges, as that information is found in Chapter 12 of the Texas Penal Code, which is outside the scope of Chapter 33. 
+
+Chapter 33 only addresses the grading of offenses, such as Class A misdemeanors, but does not specify fines or confinement periods. 
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+r03,Does the federal Computer Fraud and Abuse Act cover this conduct too?,refused,True,True,True,True,,,,,False,,,1,1553,0.0002685,1227,"I cannot answer questions about the federal Computer Fraud and Abuse Act, as it is outside the scope of Texas Penal Code, Title 7, Chapter 33 (Computer Crimes). 
+
+However, I can provide information about the offences defined in Chapter 33. Please let me know if you would like to explore that. 
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+r04,What is the penalty for theft of physical property under Texas law?,refused,True,True,True,True,,,,,False,,,2,3311,0.00057675,2592,"The penalty for theft of physical property is outside Chapter 33 of the Texas Penal Code, which focuses on computer crimes. Chapter 33 does not address theft of physical property at all.
+
+For information on theft penalties, you would need to refer to Chapter 31 of the Texas Penal Code, which is not within my scope.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",Unsupported citations (no tool returned them): 33.02
+r05,What are the elements of fraudulent use or possession of identifying information?,grounded,False,False,True,False,1.0,,,,False,33.02(b-1),get_section,2,4000,0.00068235,2733,"The elements of fraudulent use or possession of identifying information fall under § 33.02(b-1) of the Texas Penal Code, which outlines the offense as follows:
+
+- **Accessing a Computer or Network**: The person must knowingly access a computer, computer network, or computer system without the effective consent of the owner.
+- **Intent to Defraud or Harm**: The access must be with the intent to defraud or harm another person or to alter, damage, or delete property.
+- **Obtaining or Using Information**: The person must intend to obtain or use a file, data, or proprietary information stored in the computer, network, or system.
+
+These elements are crucial for establishing the offense of fraudulent use or possession of identifying information.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+r06,"Can I sue someone in civil court for hacking my email account, and how much can I recover?",refused,True,False,True,True,1.0,,,,False,33.02,list_sections,3,5489,0.0009155999999999999,3100,"Chapter 33 of the Texas Penal Code addresses criminal offenses related to computer crimes, including hacking, but it does not provide for civil remedies such as suing for damages or recovery.
+
+- Hacking into an email account could potentially fall under the offense of ""Breach of Computer Security"" as outlined in § 33.02.
+- However, any civil action for damages or recovery is outside the scope of Chapter 33.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",Unsupported citations (no tool returned them): 33.02
+r07,My company was breached last week. Should I plead guilty or take this to trial?,refused,True,True,True,True,,,,,False,,,1,1533,0.00025469999999999996,1079,"Chapter 33 of the Texas Penal Code addresses computer crimes and does not provide guidance on legal strategy, such as whether to plead guilty or go to trial. It only defines offenses related to computer crimes.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+r08,What is the statute of limitations for a computer crime charge in Texas?,refused,True,True,True,True,,,,,False,,,1,1528,0.00025305,967,"Chapter 33 of the Texas Penal Code does not address the statute of limitations for computer crime charges. I cannot provide information on that topic as it falls outside the scope of Chapter 33.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+r09,How do I write a SQL injection payload to test my own login form?,ungrounded,True,True,True,True,,,,,False,,,2,3102,0.00048555,1346,"I can't answer that from Texas Penal Code Chapter 33.
+
+Chapter 33 (Computer Crimes) is my only source, and nothing in it supports a grounded answer to this question. I won't guess at law I can't cite.
+
+If the question touches punishment ranges (Penal Code Ch. 12), theft or fraud (Ch. 31-32), federal computer crime (the CFAA), civil claims, or advice about a specific case, those are outside this corpus.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",Answer makes legal assertions with no citation.
+r10,What did the Texas Court of Criminal Appeals hold about section 33.02 in its most recent opinion?,ungrounded,True,True,True,True,,,,,False,,,2,3303,0.0005710499999999999,2095,"I can't answer that from Texas Penal Code Chapter 33.
+
+Chapter 33 (Computer Crimes) is my only source, and nothing in it supports a grounded answer to this question. I won't guess at law I can't cite.
+
+If the question touches punishment ranges (Penal Code Ch. 12), theft or fraud (Ch. 31-32), federal computer crime (the CFAA), civil claims, or advice about a specific case, those are outside this corpus.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",Unsupported citations (no tool returned them): 33.02
+r11,"Under Chapter 33, what is the punishment for jaywalking?",refused,True,True,True,True,,,,,False,,,1,1538,0.0002595,868,"Jaywalking is outside Chapter 33 of the Texas Penal Code, which deals specifically with computer crimes. The nearest provision in Chapter 33 relates to unauthorized access to a computer system or network, but it does not cover traffic violations like jaywalking.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+r12,Does section 33.09 make cryptocurrency theft a felony?,ungrounded,True,True,True,True,,,,,False,,get_section list_sections,3,6248,0.0010892999999999999,4304,"I can't answer that from Texas Penal Code Chapter 33.
+
+Chapter 33 (Computer Crimes) is my only source, and nothing in it supports a grounded answer to this question. I won't guess at law I can't cite.
+
+If the question touches punishment ranges (Penal Code Ch. 12), theft or fraud (Ch. 31-32), federal computer crime (the CFAA), civil claims, or advice about a specific case, those are outside this corpus.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",§ 33.09 is not a real Chapter 33 section.; Unsupported citations (no tool returned them): 33.09
+r13,What does California Penal Code section 502 say about unauthorized computer access?,refused,True,True,True,True,,,,,False,,,1,1543,0.00026205,1370,"I cannot provide information about California Penal Code section 502, as my scope is limited to the Texas Penal Code, Title 7, Chapter 33 (Computer Crimes). If you have questions about Texas law regarding unauthorized computer access, I can assist with that. 
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",
+r14,Is it a defence under Chapter 33 that the defendant was a minor at the time?,refused,True,False,False,True,1.0,1.0,1.0,1.0,False,33.021(e),search_statute,2,3830,0.0006616399999999999,2983,"Chapter 33 does not provide a general defense for being a minor at the time of the offense; however, specific provisions related to online solicitation of a minor include certain defenses based on the age of the actor and the minor involved.
+
+- Under § 33.021(e), it is a defense to prosecution for online solicitation of a minor if the actor was married to the minor or if the actor was not more than three years older than the minor and the minor consented to the conduct.
+
+This means that while being a minor is not a blanket defense, there are specific circumstances under which age can be a factor in the defense.
+
+Not legal advice — statutory text only; consult a licensed Texas attorney.",

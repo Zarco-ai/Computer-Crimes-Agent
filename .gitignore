@@ -1,19 +1,41 @@
-# Environment & secrets
+# ---------------------------------------------------------------------------
+# Secrets & credentials -- never commit these
+# ---------------------------------------------------------------------------
 .env
 .env.*
 !.env.example
 *.pem
 *.key
+*.p12
 secrets/
 credentials.json
 *credentials*
+*_token
+*.apikey
 
+# ---------------------------------------------------------------------------
+# Local tooling / editor state (may contain absolute paths from one machine)
+# ---------------------------------------------------------------------------
+.claude/
+.cursor/
+.aider*
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------------------------------------------------------------------------
 # Virtual environments
+# ---------------------------------------------------------------------------
 .venv/
 venv/
 env/
+ENV/
 
+# ---------------------------------------------------------------------------
 # Python
+# ---------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
@@ -23,21 +45,48 @@ __pycache__/
 .eggs/
 dist/
 build/
+pip-wheel-metadata/
 
-# Logs & runtime data (may contain queries/responses)
-Logs/
+# Test & type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Generated artifacts -- rebuild with `cyberlaw ingest` (free, no API calls)
+# ---------------------------------------------------------------------------
+data/processed/
+
+# ---------------------------------------------------------------------------
+# Runtime output
+# ---------------------------------------------------------------------------
+# Query/cost logs: contain user questions, so they stay local.
+logs/
 *.log
-*.jsonl
 
-# OS
-.DS_Store
-Thumbs.db
+# Timestamped eval runs. Committed results live in docs/ instead.
+evals_out/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# ML experiment tracking
+# Experiment tracking
 wandb/
+outputs/
+mlruns/
+
+# ---------------------------------------------------------------------------
+# OS cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini

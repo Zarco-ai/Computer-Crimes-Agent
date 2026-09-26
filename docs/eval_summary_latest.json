@@ -1,0 +1,18 @@
+{
+  "cases": 42,
+  "citation_precision": 1.0,
+  "section_recall": 0.9655172413793104,
+  "cite_hit": 0.9482758620689655,
+  "tool_choice_hit": 0.8275862068965517,
+  "punishment_leak_rate": 0.0,
+  "total_cost_usd": 0.02629912,
+  "total_tokens": 153905,
+  "avg_steps": 1.9523809523809523,
+  "false_refusal_rate": 0.034482758620689655,
+  "scope_acknowledged_out_of_scope": 0.9230769230769231,
+  "suite": "all",
+  "backend": "pinecone",
+  "prompt_version": "v2.0-agentic",
+  "model": "gpt-4o-mini",
+  "timestamp": "2026-09-26T05:47:46.204845+00:00"
+}
